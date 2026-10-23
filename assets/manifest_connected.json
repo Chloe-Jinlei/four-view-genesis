@@ -1,0 +1,981 @@
+{
+  "provenance": "Alternate image-inferred fitted bear with explicit shoulder joins correcting disconnected arm geometry; not original simulation ground truth.",
+  "units": "metres",
+  "world_axes": {
+    "up": "+Z",
+    "bear_front": "-Y"
+  },
+  "bear": {
+    "parts": [
+      {
+        "name": "torso",
+        "mesh": "bear_parts_fitted/torso.obj",
+        "position": [
+          0,
+          0,
+          0.91
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.12,
+          0.103,
+          0.145
+        ],
+        "color_rgba": [
+          0.43,
+          0.245,
+          0.105,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "head",
+        "mesh": "bear_parts/head.obj",
+        "position": [
+          0,
+          -0.004,
+          1.115
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.095,
+          0.08,
+          0.087
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "ear_left",
+        "mesh": "bear_parts/ear_left.obj",
+        "position": [
+          -0.078,
+          -0.002,
+          1.185
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.034,
+          0.026,
+          0.034
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "ear_inner_left",
+        "mesh": "bear_parts/ear_inner_left.obj",
+        "position": [
+          -0.078,
+          -0.024,
+          1.185
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.022,
+          0.004,
+          0.023
+        ],
+        "color_rgba": [
+          0.69,
+          0.6,
+          0.4,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "foot_left",
+        "mesh": "bear_parts/foot_left.obj",
+        "position": [
+          -0.058,
+          -0.027,
+          0.757
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.046,
+          0.06,
+          0.033
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "arm_left",
+        "mesh": "bear_parts_fitted/arm_left.obj",
+        "position": [
+          -0.138,
+          -0.008,
+          0.978
+        ],
+        "quaternion_wxyz": [
+          0.9637149282107609,
+          0.0,
+          0.2669335818958115,
+          0.0
+        ],
+        "radii": [
+          0.026,
+          0.026,
+          0.069
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "eye_left",
+        "mesh": "bear_parts/eye_left.obj",
+        "position": [
+          -0.031,
+          -0.076,
+          1.132
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.0058,
+          0.0042,
+          0.007
+        ],
+        "color_rgba": [
+          0.055,
+          0.041,
+          0.025,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "eye_glint_left",
+        "mesh": "bear_parts/eye_glint_left.obj",
+        "position": [
+          -0.0315,
+          -0.0797,
+          1.134
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.0015,
+          0.0008,
+          0.0017
+        ],
+        "color_rgba": [
+          0.94,
+          0.9,
+          0.79,
+          1
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "ear_right",
+        "mesh": "bear_parts/ear_right.obj",
+        "position": [
+          0.078,
+          -0.002,
+          1.185
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.034,
+          0.026,
+          0.034
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "ear_inner_right",
+        "mesh": "bear_parts/ear_inner_right.obj",
+        "position": [
+          0.078,
+          -0.024,
+          1.185
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.022,
+          0.004,
+          0.023
+        ],
+        "color_rgba": [
+          0.69,
+          0.6,
+          0.4,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "foot_right",
+        "mesh": "bear_parts/foot_right.obj",
+        "position": [
+          0.058,
+          -0.027,
+          0.757
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.046,
+          0.06,
+          0.033
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "arm_right",
+        "mesh": "bear_parts_fitted/arm_right.obj",
+        "position": [
+          0.138,
+          -0.008,
+          0.978
+        ],
+        "quaternion_wxyz": [
+          0.9637149282107609,
+          0.0,
+          -0.2669335818958115,
+          0.0
+        ],
+        "radii": [
+          0.026,
+          0.026,
+          0.069
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "eye_right",
+        "mesh": "bear_parts/eye_right.obj",
+        "position": [
+          0.031,
+          -0.076,
+          1.132
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.0058,
+          0.0042,
+          0.007
+        ],
+        "color_rgba": [
+          0.055,
+          0.041,
+          0.025,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "eye_glint_right",
+        "mesh": "bear_parts/eye_glint_right.obj",
+        "position": [
+          0.0295,
+          -0.0797,
+          1.134
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.0015,
+          0.0008,
+          0.0017
+        ],
+        "color_rgba": [
+          0.94,
+          0.9,
+          0.79,
+          1
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "belly_patch",
+        "mesh": "bear_parts_fitted/belly_patch.obj",
+        "position": [
+          0,
+          -0.1,
+          0.915
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.078,
+          0.012,
+          0.1
+        ],
+        "color_rgba": [
+          0.69,
+          0.6,
+          0.4,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "muzzle",
+        "mesh": "bear_parts/muzzle.obj",
+        "position": [
+          0,
+          -0.079,
+          1.088
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.043,
+          0.025,
+          0.032
+        ],
+        "color_rgba": [
+          0.69,
+          0.6,
+          0.4,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "nose",
+        "mesh": "bear_parts/nose.obj",
+        "position": [
+          0,
+          -0.103,
+          1.101
+        ],
+        "quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radii": [
+          0.0092,
+          0.006,
+          0.0068
+        ],
+        "color_rgba": [
+          0.055,
+          0.041,
+          0.025,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "mouth",
+        "mesh": "bear_parts/mouth.obj",
+        "position": [
+          0.0,
+          -0.103,
+          1.088
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "color_rgba": [
+          0.055,
+          0.041,
+          0.025,
+          1.0
+        ],
+        "collision": false,
+        "fixed": true,
+        "geometry": "decorative_tube_mesh"
+      },
+      {
+        "name": "shoulder_left",
+        "mesh": "bear_parts_connected/shoulder_left.obj",
+        "position": [
+          -0.09,
+          -0.007,
+          1.016
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "radii": [
+          0.034,
+          0.028,
+          0.032
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      },
+      {
+        "name": "shoulder_right",
+        "mesh": "bear_parts_connected/shoulder_right.obj",
+        "position": [
+          0.09,
+          -0.007,
+          1.016
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "radii": [
+          0.034,
+          0.028,
+          0.032
+        ],
+        "color_rgba": [
+          0.53,
+          0.325,
+          0.155,
+          1.0
+        ],
+        "collision": true,
+        "fixed": true,
+        "geometry": "ellipsoid"
+      }
+    ],
+    "world_visual_glb": "bear_connected.glb",
+    "part_mesh_frame": "local, centred on part position",
+    "front_axis": "-Y",
+    "table_top_z": 0.72,
+    "modeling_assumptions": [
+      "Absolute scale is not identifiable from the four uncalibrated images; all dimensions are estimates.",
+      "The bear is approximated by fixed overlapping ellipsoids; no plush material parameters are inferred.",
+      "Arms are separate elongated ellipsoids angled outward and downward; no bear articulation is inferred.",
+      "Small colored facial and belly parts are visual only, with collision disabled.",
+      "This fitted variant is an explicit alternate geometry hypothesis; see variant metadata.",
+      "Two visible fixed brown shoulder ellipsoids connect each arm root to the torso with verified >=5 mm interior margin."
+    ],
+    "validation_arms": {
+      "left": {
+        "shoulder": [
+          -0.105,
+          0,
+          1.025
+        ],
+        "tip": [
+          -0.165,
+          -0.008,
+          0.925
+        ]
+      },
+      "right": {
+        "shoulder": [
+          0.105,
+          0,
+          1.025
+        ],
+        "tip": [
+          0.165,
+          -0.008,
+          0.925
+        ]
+      }
+    }
+  },
+  "cloth": {
+    "mesh": "cloth.obj",
+    "material": "cloth.mtl",
+    "texture": "cloth_texture.png",
+    "topology": "cloth_topology.npz",
+    "frame": "XY plane, centered at origin, normal +Z",
+    "length_x": 0.7,
+    "width_y": 0.16,
+    "thickness": null,
+    "vertex_count": 1437,
+    "triangle_count": 2628,
+    "grid_spacing_x_range": [
+      0.008571428571428563,
+      0.009062500000000029
+    ],
+    "grid_spacing_y_range": [
+      0.008499999999999994,
+      0.00933333333333334
+    ],
+    "boundary_loop_count": 3,
+    "euler_characteristic": -1,
+    "outer_boundary_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      157,
+      236,
+      315,
+      394,
+      473,
+      552,
+      631,
+      710,
+      781,
+      848,
+      915,
+      982,
+      1049,
+      1120,
+      1199,
+      1278,
+      1357,
+      1436,
+      1435,
+      1434,
+      1433,
+      1432,
+      1431,
+      1430,
+      1429,
+      1428,
+      1427,
+      1426,
+      1425,
+      1424,
+      1423,
+      1422,
+      1421,
+      1420,
+      1419,
+      1418,
+      1417,
+      1416,
+      1415,
+      1414,
+      1413,
+      1412,
+      1411,
+      1410,
+      1409,
+      1408,
+      1407,
+      1406,
+      1405,
+      1404,
+      1403,
+      1402,
+      1401,
+      1400,
+      1399,
+      1398,
+      1397,
+      1396,
+      1395,
+      1394,
+      1393,
+      1392,
+      1391,
+      1390,
+      1389,
+      1388,
+      1387,
+      1386,
+      1385,
+      1384,
+      1383,
+      1382,
+      1381,
+      1380,
+      1379,
+      1378,
+      1377,
+      1376,
+      1375,
+      1374,
+      1373,
+      1372,
+      1371,
+      1370,
+      1369,
+      1368,
+      1367,
+      1366,
+      1365,
+      1364,
+      1363,
+      1362,
+      1361,
+      1360,
+      1359,
+      1358,
+      1279,
+      1200,
+      1121,
+      1050,
+      983,
+      916,
+      849,
+      782,
+      711,
+      632,
+      553,
+      474,
+      395,
+      316,
+      237,
+      158,
+      79
+    ],
+    "holes": [
+      {
+        "center_xy": [
+          -0.175,
+          0.02
+        ],
+        "target_width_x": 0.06,
+        "target_height_y": 0.064,
+        "target_corner_radius": 0.016,
+        "boundary_vertex_indices": [
+          649,
+          650,
+          651,
+          652,
+          653,
+          654,
+          729,
+          730,
+          799,
+          866,
+          933,
+          1000,
+          1069,
+          1068,
+          1143,
+          1142,
+          1141,
+          1140,
+          1139,
+          1138,
+          1067,
+          1066,
+          999,
+          932,
+          865,
+          798,
+          727,
+          728
+        ],
+        "actual_bounds_xy": [
+          [
+            -0.205,
+            -0.012
+          ],
+          [
+            -0.145,
+            0.052
+          ]
+        ]
+      },
+      {
+        "center_xy": [
+          0.175,
+          0.02
+        ],
+        "target_width_x": 0.06,
+        "target_height_y": 0.064,
+        "target_corner_radius": 0.016,
+        "boundary_vertex_indices": [
+          688,
+          689,
+          690,
+          691,
+          692,
+          693,
+          764,
+          765,
+          832,
+          899,
+          966,
+          1033,
+          1104,
+          1103,
+          1182,
+          1181,
+          1180,
+          1179,
+          1178,
+          1177,
+          1102,
+          1101,
+          1032,
+          965,
+          898,
+          831,
+          762,
+          763
+        ],
+        "actual_bounds_xy": [
+          [
+            0.145,
+            -0.012
+          ],
+          [
+            0.205,
+            0.052
+          ]
+        ]
+      }
+    ],
+    "velcro": {
+      "strip_width_x": 0.028,
+      "left_color_rgba": [
+        0.1450980392156863,
+        0.27058823529411763,
+        0.2901960784313726,
+        1
+      ],
+      "right_color_rgba": [
+        0.5098039215686274,
+        0.3254901960784314,
+        0.17647058823529413,
+        1
+      ],
+      "physical_adhesion": "Not encoded in asset. Requires a separate explicitly stated simulation model."
+    },
+    "modeling_assumptions": [
+      "The garment is a single rectangular sheet with two cut-out armholes. No unsupported sleeve tubes are added.",
+      "The rounded rectangular openings use a staircase grid boundary and absent mesh faces.",
+      "Material stiffness, density, friction, thickness and adhesion cannot be recovered from still images.",
+      "Every cloth dimension and the hidden-facing appearance are independent reconstruction assumptions."
+    ]
+  },
+  "variant": {
+    "name": "fuller_torso_connected_shoulders",
+    "source_manifest": "manifest_fitted.json",
+    "source_manifest_sha256": "40188eed28837d279df68cc4e23d7ff60e7b41d46288f3215ad084a6bca83937",
+    "is_ground_truth": false,
+    "changed_parts": [],
+    "added_parts": [
+      "shoulder_left",
+      "shoulder_right"
+    ],
+    "reason": "Both prior arm ellipsoids were separated from the torso. Brown shoulder joins bury the upper caps and provide real collision continuity.",
+    "diagnostic": "arm_connectivity_diagnostic.json",
+    "assumptions": [
+      "Shoulder shape and stiffness remain independently inferred.",
+      "Original and fitted manifests/meshes are preserved for their existing recordings.",
+      "The original collision-union mesh is not applicable to this variant."
+    ]
+  }
+}

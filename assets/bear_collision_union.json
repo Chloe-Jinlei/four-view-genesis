@@ -1,0 +1,114 @@
+{
+  "provenance": "Only the independent four-view reconstruction manifest; no original simulation assets.",
+  "manifest_sha256": "f92251250cee45e7cac5e89f5dc146b638b688488d16c2c1cb33312abfb3a1f0",
+  "output_mesh": "bear_collision_union.obj",
+  "coordinate_frame": "world coordinates, metres; no pose offset needed",
+  "collision_parts": [
+    "torso",
+    "head",
+    "ear_left",
+    "foot_left",
+    "arm_left",
+    "ear_right",
+    "foot_right",
+    "arm_right",
+    "belly_patch"
+  ],
+  "method": "Minimum of analytic ellipsoid implicit fields, followed by zero-level marching cubes",
+  "field_is_exact_euclidean_sdf": false,
+  "spacing_m": 0.0025,
+  "grid_shape": [
+    137,
+    75,
+    204
+  ],
+  "grid_bounds_m": [
+    [
+      -0.17,
+      -0.095,
+      0.7175
+    ],
+    [
+      0.17,
+      0.09000000000000001,
+      1.2249999999999999
+    ]
+  ],
+  "vertices": 83034,
+  "faces": 166104,
+  "watertight": true,
+  "winding_consistent": true,
+  "connected_components": 1,
+  "volume_m3": 0.009550934448246229,
+  "bounds_m": [
+    [
+      -0.1649099086225033,
+      -0.08999999778345227,
+      0.7240030758269131
+    ],
+    [
+      0.16490988612174987,
+      0.08299998819828033,
+      1.2189899969100952
+    ]
+  ],
+  "components": [
+    {
+      "vertices": 83034,
+      "faces": 166104,
+      "watertight": true,
+      "volume_m3": 0.009550934448246229,
+      "bounds_m": [
+        [
+          -0.1649099086225033,
+          -0.08999999778345227,
+          0.7240030758269131
+        ],
+        [
+          0.16490988612174987,
+          0.08299998819828033,
+          1.2189899969100952
+        ]
+      ]
+    }
+  ],
+  "removed_interior_shells": [
+    {
+      "reason": "enclosed sub-voxel interior shell, not outer surface",
+      "volume_m3": 2.2127911700213915e-12,
+      "faces": 8,
+      "bounds_m": [
+        [
+          0.01733340501785277,
+          -0.02321122705936432,
+          0.7724533665180207
+        ],
+        [
+          0.017532633543014514,
+          -0.022420563995838166,
+          0.7725376512110234
+        ]
+      ]
+    },
+    {
+      "reason": "enclosed sub-voxel interior shell, not outer surface",
+      "volume_m3": 2.2126256658202965e-12,
+      "faces": 8,
+      "bounds_m": [
+        [
+          -0.017532629966735852,
+          -0.02321122705936432,
+          0.7724533665180207
+        ],
+        [
+          -0.017333416342735303,
+          -0.022420563995838166,
+          0.7725376512110234
+        ]
+      ]
+    }
+  ],
+  "geometry_changes": "No manifest dimensions or poses changed; no smoothing, inflation or gap bridging. Outer surface is discretized at the stated grid spacing.",
+  "visual_mesh_relationship": "The analytic ellipsoids have the manifest radii; the separate visual parts are faceted icospheres, so their outer surfaces differ slightly.",
+  "loading": "Use Mesh with pos=(0,0,0), fixed=True, convexify=False, decimate=False. Disable the separate bear-part collisions when using this union, or internal contact surfaces remain."
+}

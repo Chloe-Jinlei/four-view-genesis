@@ -1,0 +1,257 @@
+{
+  "method": "Convex analytic ellipsoid checks plus actual faceted-mesh interior distances.",
+  "required_overlap_clearance_m": 0.005,
+  "tested_analytic_inner_margin_m": 0.006,
+  "old_geometry": {
+    "manifest.json": {
+      "left": {
+        "torso": {
+          "minimum_euclidean_gap_m": 0.0006726593821611895,
+          "optimizer_success": true,
+          "minimum_normalized_body_radius_in_arm": 1.00600088876953,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            -0.09041651198917947,
+            -0.005718911293967084,
+            0.9847532940245918
+          ],
+          "nearest_on_body": [
+            -0.08980229119235256,
+            -0.005656989308725984,
+            0.9844861440201025
+          ]
+        },
+        "head": {
+          "minimum_euclidean_gap_m": 0.025650173693446573,
+          "optimizer_success": false,
+          "minimum_normalized_body_radius_in_arm": 1.282568772719698,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            -0.08578252086586499,
+            -0.007622878636906495,
+            1.035852912078533
+          ],
+          "nearest_on_body": [
+            -0.06817889575925164,
+            -0.006655876782314003,
+            1.0544837655485972
+          ]
+        }
+      },
+      "right": {
+        "torso": {
+          "minimum_euclidean_gap_m": 0.0006726593821612019,
+          "optimizer_success": true,
+          "minimum_normalized_body_radius_in_arm": 1.00600088876953,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            0.09041651198917947,
+            -0.005718911293967085,
+            0.9847532940245918
+          ],
+          "nearest_on_body": [
+            0.08980229119235254,
+            -0.005656989308725987,
+            0.9844861440201025
+          ]
+        },
+        "head": {
+          "minimum_euclidean_gap_m": 0.02565017369352362,
+          "optimizer_success": false,
+          "minimum_normalized_body_radius_in_arm": 1.282568772719698,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            0.08578252086590621,
+            -0.00762287863690478,
+            1.0358529120784765
+          ],
+          "nearest_on_body": [
+            0.06817889575922094,
+            -0.006655876782297036,
+            1.0544837655485781
+          ]
+        }
+      }
+    },
+    "manifest_fitted.json": {
+      "left": {
+        "torso": {
+          "minimum_euclidean_gap_m": 0.002427946907024021,
+          "optimizer_success": false,
+          "minimum_normalized_body_radius_in_arm": 1.0194798263571643,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            -0.10682641900288314,
+            -0.006215313501821347,
+            0.9815086734352998
+          ],
+          "nearest_on_body": [
+            -0.10462743867321732,
+            -0.0060429239446993036,
+            0.9804939352751494
+          ]
+        },
+        "head": {
+          "minimum_euclidean_gap_m": 0.03637845775789727,
+          "optimizer_success": true,
+          "minimum_normalized_body_radius_in_arm": 1.3980549805601252,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            -0.1001883736427242,
+            -0.007650482026072345,
+            1.035245985751882
+          ],
+          "nearest_on_body": [
+            -0.07319669499874278,
+            -0.006401628531895231,
+            1.0596033632333195
+          ]
+        }
+      },
+      "right": {
+        "torso": {
+          "minimum_euclidean_gap_m": 0.0024279469070239944,
+          "optimizer_success": false,
+          "minimum_normalized_body_radius_in_arm": 1.0194798263571643,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            0.1068264190016484,
+            -0.0062153135001458675,
+            0.9815086734382602
+          ],
+          "nearest_on_body": [
+            0.10462743867201955,
+            -0.0060429239443167354,
+            0.9804939352778099
+          ]
+        },
+        "head": {
+          "minimum_euclidean_gap_m": 0.03637845775789723,
+          "optimizer_success": false,
+          "minimum_normalized_body_radius_in_arm": 1.3980549805601252,
+          "analytic_overlap": false,
+          "nearest_on_arm": [
+            0.10018837363195385,
+            -0.007650482059109359,
+            1.0352459857416407
+          ],
+          "nearest_on_body": [
+            0.07319669501909018,
+            -0.006401628572887509,
+            1.0596033632579693
+          ]
+        }
+      }
+    }
+  },
+  "joins": {
+    "left": {
+      "arm_left": {
+        "witness_world": [
+          -0.10594441080382683,
+          -0.00749540552553379,
+          1.0143533092398953
+        ],
+        "analytic_clearance_lower_bounds_m": {
+          "arm_left": 0.0060000000000000045,
+          "shoulder_left": 0.014781205017530212
+        },
+        "actual_mesh_interior_clearance_m": {
+          "arm_left": 0.009213627139205547,
+          "shoulder_left": 0.017801003141017332
+        },
+        "at_least_5mm_common_interior": true
+      },
+      "torso": {
+        "witness_world": [
+          -0.07875287816439332,
+          -0.006186651138189095,
+          1.0075479560085543
+        ],
+        "analytic_clearance_lower_bounds_m": {
+          "torso": 0.00600000000000002,
+          "shoulder_left": 0.016119495495749803
+        },
+        "actual_mesh_interior_clearance_m": {
+          "torso": 0.007173434962506684,
+          "shoulder_left": 0.018909734447818155
+        },
+        "at_least_5mm_common_interior": true
+      },
+      "nominal_shoulder_point": {
+        "position": [
+          -0.105,
+          0.0,
+          1.025
+        ],
+        "inside_bridge": true,
+        "analytic_clearance_lower_bound_m": 0.01176390500430165,
+        "mesh_clearance_m": 0.013245336842708915
+      },
+      "upper_arm_pole": {
+        "position": [
+          -0.10249979287550068,
+          -0.008,
+          1.0371670118741656
+        ],
+        "inside_bridge": true,
+        "analytic_clearance_lower_bound_m": 0.006786848360228731,
+        "mesh_clearance_m": 0.007728300331549693
+      }
+    },
+    "right": {
+      "arm_right": {
+        "witness_world": [
+          0.10594441080382683,
+          -0.00749540552553379,
+          1.0143533092398953
+        ],
+        "analytic_clearance_lower_bounds_m": {
+          "arm_right": 0.0060000000000000045,
+          "shoulder_right": 0.014781205017530212
+        },
+        "actual_mesh_interior_clearance_m": {
+          "arm_right": 0.009213627139205547,
+          "shoulder_right": 0.017801003141017298
+        },
+        "at_least_5mm_common_interior": true
+      },
+      "torso": {
+        "witness_world": [
+          0.07875287816439332,
+          -0.006186651138189095,
+          1.0075479560085543
+        ],
+        "analytic_clearance_lower_bounds_m": {
+          "torso": 0.00600000000000002,
+          "shoulder_right": 0.016119495495749803
+        },
+        "actual_mesh_interior_clearance_m": {
+          "torso": 0.007173434962506684,
+          "shoulder_right": 0.018909734447818155
+        },
+        "at_least_5mm_common_interior": true
+      },
+      "nominal_shoulder_point": {
+        "position": [
+          0.105,
+          0.0,
+          1.025
+        ],
+        "inside_bridge": true,
+        "analytic_clearance_lower_bound_m": 0.01176390500430165,
+        "mesh_clearance_m": 0.013245336842708923
+      },
+      "upper_arm_pole": {
+        "position": [
+          0.10249979287550068,
+          -0.008,
+          1.0371670118741656
+        ],
+        "inside_bridge": true,
+        "analytic_clearance_lower_bound_m": 0.006786848360228731,
+        "mesh_clearance_m": 0.007728300331549693
+      }
+    }
+  }
+}

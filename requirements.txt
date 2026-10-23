@@ -1,0 +1,23 @@
+# Exact versions observed in the existing local runtime; not a full transitive lock.
+# Tested interpreter: CPython 3.12.15.
+# Genesis source checkout: ffd119c30118ebb9745fc009349efb2112a8cb76.
+# velcro.py uses a Genesis private substep hook; recheck compatibility after upgrades.
+# Do not install over the user's existing environment merely to run this bundle.
+
+# Physics and numerical runtime.
+genesis-world==1.4.3
+quadrants==1.3.3
+torch==2.14.0
+numpy==2.5.3
+scipy==1.18.1
+
+# Native-state rendering/video and procedural visual assets.
+Pillow==11.3.0
+imageio==2.38.0
+imageio-ffmpeg==0.6.0
+trimesh==5.1.1
+matplotlib==3.11.2
+
+# Required only when regenerating the optional collision-union asset.
+scikit-image==0.26.0
+rtree==1.4.1

@@ -1,0 +1,15 @@
+{
+  "self_collision_enabled": true,
+  "collision_frames": 0,
+  "first_collision": null,
+  "worst_contacts": {},
+  "samples": 851,
+  "period_s": 0.02,
+  "state_kind": "Nominal joint commands, not actual simulated robot states",
+  "scope": "All robot native collision links, their own nonadjacent links under native filters, the other robot, connected bear, and tabletop. Discrete samples only; no swept or dynamic clearance guarantee.",
+  "config_file": "planning/outward_backup_config.json",
+  "joint_path_file": "planning/outward_backup_joint_path.npy",
+  "joint_path_sha256": "f8a7838a632280aa36c2e4200a28f9ab3d913ee904fbaf72ff7cbaa012c84c81",
+  "geometry_manifest": "assets/manifest_connected.json",
+  "geometry_manifest_sha256": "64fde73fb7321bcc6102ede829bdc2ba2dde993f0d0bc84d9b667f4948d7cfba"
+}

@@ -1,0 +1,62 @@
+{
+  "mode": "saved Genesis state playback, not new dynamics",
+  "source_run": "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/four_view_genesis/outputs/wrap_v13",
+  "video": "/home/chloe/.codex/.chatgpt-projects/g-p-6aa7fe6a24ac819183441af90be8f1e2/four_view_genesis/outputs/wrap_v13/replay/overview.mp4",
+  "label": "Saved Genesis states / approximate reconstruction",
+  "frames": 171,
+  "saved_state_interval_s": 0.09999999999999964,
+  "video_fps": 10.000000000000036,
+  "first_saved_time_s": 0.0,
+  "last_saved_time_s": 17.0,
+  "simulation_steps_executed": 0,
+  "interpolated_states": 0,
+  "cloth_topology_verification": "particle count, rest coordinates/order and exact face indices matched",
+  "stage_labels_source": "metrics.json",
+  "views": [
+    "detail",
+    "back"
+  ],
+  "close_up": true,
+  "contact_sheet_samples": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "stage": "approach"
+    },
+    {
+      "frame": 17,
+      "time": 1.7,
+      "stage": "grasp"
+    },
+    {
+      "frame": 29,
+      "time": 2.9,
+      "stage": "lift"
+    },
+    {
+      "frame": 72,
+      "time": 7.2,
+      "stage": "thread_sleeves"
+    },
+    {
+      "frame": 97,
+      "time": 9.700000000000001,
+      "stage": "wrap"
+    },
+    {
+      "frame": 137,
+      "time": 13.700000000000001,
+      "stage": "hold"
+    },
+    {
+      "frame": 149,
+      "time": 14.9,
+      "stage": "release"
+    },
+    {
+      "frame": 170,
+      "time": 17.0,
+      "stage": "free_hold_test"
+    }
+  ]
+}

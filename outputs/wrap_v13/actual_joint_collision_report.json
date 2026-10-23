@@ -1,0 +1,27 @@
+{
+  "run": "wrap_v13",
+  "state_kind": "ACTUAL saved simulated joint positions, NOT commanded PD targets",
+  "samples": 171,
+  "time_range_s": [
+    0.0,
+    17.0
+  ],
+  "sample_period_s": 0.09999999999999964,
+  "self_collision_enabled_in_diagnostic": true,
+  "physics_self_collision_setting": false,
+  "includes": "All robot native collision geometry vs own nonadjacent links under native pair filters, other robot, run bear geometry, and tabletop",
+  "excluded": "Floor, table legs, and fixed mounting plates",
+  "collision_frames": 0,
+  "first_collision": null,
+  "maximum_penetration_m": 0.0,
+  "worst_contacts": {},
+  "contact_samples": [],
+  "max_command_minus_actual_joint_error_rad_left_right": [
+    0.14980176091194153,
+    0.1498139686882496
+  ],
+  "geometry_manifest": "assets/manifest_connected.json",
+  "geometry_manifest_sha256": "64fde73fb7321bcc6102ede829bdc2ba2dde993f0d0bc84d9b667f4948d7cfba",
+  "actual_joint_array_sha256": "2eb6a8687d6f5fc54bf8934bec4364646490ba23ab2c0a3b28162f8a46581cc3",
+  "limitations": "Discrete saved samples only; does not certify continuous swept clearance or intervening transient contacts. No physics/config changes."
+}

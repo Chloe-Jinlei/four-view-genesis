@@ -1,0 +1,130 @@
+{
+  "scope": "Final saved geometry and active native adhesive pair endpoints; spatial span is not adhesive area fraction. Eight bins cover full16cm material height, bottom-to-top.",
+  "active_count": 56,
+  "active_rest_y_range_left": [
+    -0.4000000059604645,
+    -0.23999999463558197
+  ],
+  "active_rest_y_range_right": [
+    -0.4000000059604645,
+    -0.23999999463558197
+  ],
+  "max_pair_rest_y_mismatch_m": 0.0169999897480011,
+  "material_span_fraction_left": 1.0000001192092896,
+  "material_span_fraction_right": 1.0000001192092896,
+  "bands_bottom_to_top": [
+    {
+      "rest_y_band": [
+        -0.4,
+        -0.38
+      ],
+      "bond_left_endpoint_count": 6,
+      "bond_right_endpoint_count": 8,
+      "both_endpoints_in_band_count": 6,
+      "minimum_same_band_gap_mm": 7.45647668838501,
+      "median_left_vertex_nearest_right_gap_mm": 9.077634811401367,
+      "max_left_vertex_nearest_right_gap_mm": 17.754379272460938
+    },
+    {
+      "rest_y_band": [
+        -0.38,
+        -0.36
+      ],
+      "bond_left_endpoint_count": 4,
+      "bond_right_endpoint_count": 4,
+      "both_endpoints_in_band_count": 2,
+      "minimum_same_band_gap_mm": 8.863277435302734,
+      "median_left_vertex_nearest_right_gap_mm": 14.214364051818848,
+      "max_left_vertex_nearest_right_gap_mm": 22.843374252319336
+    },
+    {
+      "rest_y_band": [
+        -0.36,
+        -0.34
+      ],
+      "bond_left_endpoint_count": 6,
+      "bond_right_endpoint_count": 5,
+      "both_endpoints_in_band_count": 4,
+      "minimum_same_band_gap_mm": 9.2855224609375,
+      "median_left_vertex_nearest_right_gap_mm": 13.089499473571777,
+      "max_left_vertex_nearest_right_gap_mm": 28.08547592163086
+    },
+    {
+      "rest_y_band": [
+        -0.34,
+        -0.32
+      ],
+      "bond_left_endpoint_count": 5,
+      "bond_right_endpoint_count": 6,
+      "both_endpoints_in_band_count": 4,
+      "minimum_same_band_gap_mm": 7.804143905639648,
+      "median_left_vertex_nearest_right_gap_mm": 10.95635986328125,
+      "max_left_vertex_nearest_right_gap_mm": 25.361772537231445
+    },
+    {
+      "rest_y_band": [
+        -0.32,
+        -0.3
+      ],
+      "bond_left_endpoint_count": 6,
+      "bond_right_endpoint_count": 6,
+      "both_endpoints_in_band_count": 4,
+      "minimum_same_band_gap_mm": 9.073751449584961,
+      "median_left_vertex_nearest_right_gap_mm": 9.650108337402344,
+      "max_left_vertex_nearest_right_gap_mm": 19.996315002441406
+    },
+    {
+      "rest_y_band": [
+        -0.3,
+        -0.28
+      ],
+      "bond_left_endpoint_count": 7,
+      "bond_right_endpoint_count": 6,
+      "both_endpoints_in_band_count": 5,
+      "minimum_same_band_gap_mm": 8.983765602111816,
+      "median_left_vertex_nearest_right_gap_mm": 9.052482604980469,
+      "max_left_vertex_nearest_right_gap_mm": 9.130181312561035
+    },
+    {
+      "rest_y_band": [
+        -0.28,
+        -0.26
+      ],
+      "bond_left_endpoint_count": 10,
+      "bond_right_endpoint_count": 9,
+      "both_endpoints_in_band_count": 8,
+      "minimum_same_band_gap_mm": 8.108717918395996,
+      "median_left_vertex_nearest_right_gap_mm": 9.186152458190918,
+      "max_left_vertex_nearest_right_gap_mm": 9.526838302612305
+    },
+    {
+      "rest_y_band": [
+        -0.26,
+        -0.24
+      ],
+      "bond_left_endpoint_count": 12,
+      "bond_right_endpoint_count": 12,
+      "both_endpoints_in_band_count": 11,
+      "minimum_same_band_gap_mm": 8.906227111816406,
+      "median_left_vertex_nearest_right_gap_mm": 9.000682830810547,
+      "max_left_vertex_nearest_right_gap_mm": 10.40327262878418
+    }
+  ],
+  "end_row_gaps": [
+    {
+      "rest_y": -0.4,
+      "minimum_cross_strip_end_row_gap_mm": 7.94612979888916,
+      "max_left_row_vertex_nearest_right_gap_mm": 17.754379272460938,
+      "left_row_vertex_count": 4,
+      "right_row_vertex_count": 4
+    },
+    {
+      "rest_y": -0.24,
+      "minimum_cross_strip_end_row_gap_mm": 8.999996185302734,
+      "max_left_row_vertex_nearest_right_gap_mm": 9.510334968566895,
+      "left_row_vertex_count": 4,
+      "right_row_vertex_count": 4
+    }
+  ],
+  "pre11s_max_particle_difference_from_v12_m": 0.0
+}

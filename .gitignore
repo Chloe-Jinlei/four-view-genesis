@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.cache/
+.venv/
+venv/
+.env
+.env.*
+*.log
+.DS_Store
+/four_view_genesis_reconstruction.zip

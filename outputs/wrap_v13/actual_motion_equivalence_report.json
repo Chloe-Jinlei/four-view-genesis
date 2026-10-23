@@ -1,0 +1,36 @@
+{
+  "run": "wrap_v13",
+  "reference_run": "wrap_v12",
+  "state_kind": "ACTUAL saved simulated joint positions, not commanded targets",
+  "actual_joint_arrays_identical": true,
+  "saved_time_arrays_identical": true,
+  "joint_shape": [
+    171,
+    2,
+    9
+  ],
+  "samples": 171,
+  "maximum_joint_difference_rad": 0.0,
+  "actual_joint_array_sha256": "2eb6a8687d6f5fc54bf8934bec4364646490ba23ab2c0a3b28162f8a46581cc3",
+  "reference_joint_array_sha256": "2eb6a8687d6f5fc54bf8934bec4364646490ba23ab2c0a3b28162f8a46581cc3",
+  "geometry_asset_hash_mismatches": [],
+  "geometry_config_mismatches": [],
+  "engine_version_identical": true,
+  "all_config_differences": {
+    "provenance": {
+      "run": "Same checked v12 trajectory and materials; bond capacity now covers available material strip particles instead of stopping after the first 16 upper-strip contacts.",
+      "reference": "Assumed from four initial-state images; no original simulation/data consulted."
+    },
+    "velcro_max_pairs": {
+      "run": 96,
+      "reference": null
+    }
+  },
+  "reference_audit": "outputs/wrap_v12/actual_joint_collision_report.json",
+  "reference_audit_sha256": "fa0dee30d3665988a90334c9dc21468d4152d7387c397827d5ba19545ec211d1",
+  "reference_audit_passed_with_self_collision": true,
+  "reuse_justified": true,
+  "inherited_collision_frames": 0,
+  "inherited_maximum_penetration_m": 0.0,
+  "limitations": "Reuses the reference native collision audit only at identical saved poses and geometry. This is not a fresh simulation or a continuous swept collision guarantee."
+}

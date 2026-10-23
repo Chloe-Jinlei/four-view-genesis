@@ -1,0 +1,206 @@
+{
+  "provenance": "Assumed from four initial-state images; no original simulation/data consulted.",
+  "seed": 7,
+  "dt": 0.01,
+  "substeps": 8,
+  "particle_size": 0.009,
+  "table_top": 0.72,
+  "table_size": [
+    1.35,
+    1.0,
+    0.045
+  ],
+  "cloth_initial_center": [
+    0.0,
+    -0.32,
+    0.731
+  ],
+  "cloth_material": {
+    "rho": 0.25,
+    "stretch_compliance": 1e-08,
+    "bending_compliance": 2e-05,
+    "stretch_relaxation": 0.2,
+    "bending_relaxation": 0.06,
+    "air_resistance": 1e-05,
+    "static_friction": 0.3,
+    "kinetic_friction": 0.2
+  },
+  "robot_base_x": 0.51,
+  "robot_base_y": 0.12,
+  "robot_tip_offset": [
+    0.0,
+    0.0,
+    0.1
+  ],
+  "grip_local_uv": [
+    0.305,
+    0.06
+  ],
+  "trajectory": [
+    {
+      "time": 0.0,
+      "stage": "initial",
+      "half_span": 0.29,
+      "y": -0.12,
+      "z": 1.3,
+      "tilt": 0.0,
+      "yaw": 0
+    },
+    {
+      "time": 1.5,
+      "stage": "approach",
+      "half_span": 0.305,
+      "y": -0.26,
+      "z": 0.741,
+      "tilt": 0.0,
+      "yaw": 0
+    },
+    {
+      "time": 2.0,
+      "stage": "grasp",
+      "half_span": 0.305,
+      "y": -0.26,
+      "z": 0.741,
+      "tilt": 0.0,
+      "yaw": 0
+    },
+    {
+      "time": 4.0,
+      "stage": "lift",
+      "half_span": 0.305,
+      "y": -0.24,
+      "z": 1.03,
+      "tilt": 90.0,
+      "yaw": 0
+    },
+    {
+      "time": 6.0,
+      "stage": "approach_arms",
+      "half_span": 0.28,
+      "y": -0.08,
+      "z": 1.03,
+      "tilt": 90.0,
+      "yaw": 20
+    },
+    {
+      "time": 8.5,
+      "stage": "thread_sleeves",
+      "half_span": 0.19,
+      "y": 0.065,
+      "z": 1.065,
+      "tilt": 90.0,
+      "yaw": 110
+    },
+    {
+      "time": 11.0,
+      "stage": "wrap",
+      "half_span": 0.09,
+      "y": 0.12,
+      "z": 1.065,
+      "tilt": 90.0,
+      "yaw": 150
+    },
+    {
+      "time": 13.0,
+      "stage": "press_velcro",
+      "half_span": 0.025,
+      "y": 0.12,
+      "z": 1.065,
+      "tilt": 90.0,
+      "yaw": 180,
+      "left_y_offset": 0.055
+    },
+    {
+      "time": 14.5,
+      "stage": "hold",
+      "half_span": 0.025,
+      "y": 0.12,
+      "z": 1.065,
+      "tilt": 90.0,
+      "yaw": 180,
+      "left_y_offset": 0.055
+    },
+    {
+      "time": 15.5,
+      "stage": "release",
+      "half_span": 0.18,
+      "y": 0.2,
+      "z": 1.2,
+      "tilt": 50.0,
+      "yaw": 130
+    },
+    {
+      "time": 17.0,
+      "stage": "free_hold_test",
+      "half_span": 0.26,
+      "y": 0.16,
+      "z": 1.3,
+      "tilt": 0.0,
+      "yaw": 0
+    }
+  ],
+  "stagger_grasps": false,
+  "stretch_iterations": 16,
+  "ik_rot_mask": [
+    false,
+    false,
+    true
+  ],
+  "bear_union_collision": false,
+  "fine_ik_start": 10.0,
+  "sleeve_lowering": {
+    "start": 9.0,
+    "end": 11.0,
+    "distance": 0.035
+  },
+  "asset_manifest": "assets/manifest_connected.json",
+  "validation_geometry": {
+    "arms": {
+      "left": [
+        [
+          -0.105,
+          0,
+          1.025
+        ],
+        [
+          -0.165,
+          -0.008,
+          0.925
+        ]
+      ],
+      "right": [
+        [
+          0.105,
+          0,
+          1.025
+        ],
+        [
+          0.165,
+          -0.008,
+          0.925
+        ]
+      ]
+    },
+    "torso_center": [
+      0,
+      0,
+      0.91
+    ],
+    "torso_radii": [
+      0.12,
+      0.103,
+      0.145
+    ],
+    "provenance": "Alternate fuller torso inferred jointly from image proportions and garment-hole arc spacing; assumed, not original data."
+  },
+  "bear_contact_friction": {
+    "mu_static": 0.3,
+    "mu_kinetic": 0.2
+  },
+  "grasp_particle_count": 1,
+  "velcro_contact_mode": "nearest",
+  "local_tool_roll_degrees": [
+    0,
+    0
+  ]
+}
