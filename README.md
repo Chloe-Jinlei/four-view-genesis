@@ -2,6 +2,16 @@
 
 这是根据四张初始图和任务描述独立建立的**近似模型**，不是原仿真工程或物理参数的恢复。没有读取原仿真的资产、动作、参数、数据，也没有复用工作区里已有的其他复建工程。
 
+## 四张原始输入图片
+
+以下四张图是用户提供的同一初始状态的不同视角。文件保存在 [references/](references/README.md)，与原始 PNG 逐字节一致。
+
+| 图 1：斜前方 | 图 2：俯视 |
+|---|---|
+| [![图 1：斜前方](references/view_1.png)](references/view_1.png) | [![图 2：俯视](references/view_2.png)](references/view_2.png) |
+| 图 3：侧面 | 图 4：背面 |
+| [![图 3：侧面](references/view_3.png)](references/view_3.png) | [![图 4：背面](references/view_4.png)](references/view_4.png) |
+
 ## 本次交付结果
 
 默认配置对应已实际完成的 `outputs/wrap_v13`。Genesis CPU 计算了 17 秒动作：取布、抬起、从手掌端穿袖、绕到背部闭合魔术贴、释放夹爪并撤离。最终两个袖孔均可靠地穿过对应手臂，56 对黏合连接保持；14.6–17.0 秒的所有保存样本连续满足松手保持条件，共 2.4 秒。
